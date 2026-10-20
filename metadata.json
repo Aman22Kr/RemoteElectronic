@@ -1,0 +1,8 @@
+{
+  "name": "RemoteElectronic",
+  "description": "RemoteElectronic - India's trusted store for universal & OEM remote controls, 4K Smart TVs, home appliances, and audio electronics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
