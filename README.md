@@ -88,10 +88,10 @@ npm run preview
 This repository is configured for automated static deployment to GitHub Pages via GitHub Actions.
 
 ### Deployment Setup:
-1. Push your repository to GitHub under username `Aman22kr`:
+1. Ensure `package-lock.json` is included and push your repository to GitHub under username `Aman22kr`:
    ```bash
-   git remote add origin https://github.com/Aman22kr/remote-electronic.git
-   git branch -M main
+   git add package-lock.json .github/workflows/deploy.yml
+   git commit -m "Add package-lock.json and configure resilient GitHub Actions deployment"
    git push -u origin main
    ```
 2. In your GitHub repository:
